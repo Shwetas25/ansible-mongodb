@@ -1,7 +1,6 @@
 ---
 - name: deploy MongoDB and configure the database
-  hosts: 
-    - mongodb
+  hosts: all
   user: ansible
   sudo: yes
   roles:
